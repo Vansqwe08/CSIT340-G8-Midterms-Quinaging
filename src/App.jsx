@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Docs from "./component/Docs";
+import Feedback from "./component/Feedback";
 import Guide from "./component/Guide";
 import Sidebar from "./component/Sidebar";
 
@@ -32,10 +33,10 @@ function App() {
           onReset={handleReset}
         />
         <Guide />
+        <Feedback />
       </main>
     </div>
   );
 }
 
 export default App;
-
